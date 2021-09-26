@@ -4,8 +4,8 @@
 #pragma output CRT_ORG_CODE = 32768
 // main binary program start        32768
 
-#pragma output REGISTER_SP = 0xBFFF
-// keep stack out of top 16k
+#pragma output REGISTER_SP = 0xC000
+// keep stack out of top 16k        0xBFFF  attention
 
 #pragma output CRT_STACK_SIZE = 0xFD
 // stack is 243 BYTES
