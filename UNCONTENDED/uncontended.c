@@ -16,7 +16,7 @@
 void main ()
 {
     //new
-    SETUP_IM2();// set up for the interrupt manager 2
+    SETUP_IM2();// set up for the interrupt MODE 2
     // this will point the I register to IM2 Vector
 
     zx_cls(PAPER_WHITE);

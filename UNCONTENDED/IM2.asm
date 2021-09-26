@@ -61,7 +61,7 @@ _SETUP_IM2:
     ld HL, _IM2_VECTOR  ; loads the HL with the address of the IM2 Vector
     ld A, H             ; places that value in the A register
     ld I, A             ; now the I register has the vector address
-    im 2                ; turn on the interrupt manager 2
+    im 2                ; turn on the interrupt mode 2
     ei
 ret
 
